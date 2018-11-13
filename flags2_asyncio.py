@@ -1,3 +1,8 @@
+'''
+save_flag is NOT asyncIO process,
+flags3_asyncio.py make save_flag work with run_in_executor
+as asyncio saving
+'''
 import asyncio
 import collections 
 
