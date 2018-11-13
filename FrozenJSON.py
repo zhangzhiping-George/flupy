@@ -40,8 +40,12 @@ print(len(raw_feed['Schedule']['events']))
 feed = FrozenJSON(raw_feed)
 
 print(feed.Schedule.keys())
+print('===============')
 print(feed.Schedule.events[40].name)
+print(feed.Schedule.events[:4])
+print('===============')
 print(feed.Schedule.events[40].speakers)
+print('===============')
 print(feed.Schedule.speakers[-1].name)
 
 for key, value in sorted(feed.Schedule.items()):

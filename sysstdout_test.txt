@@ -1,0 +1,1 @@
+here should be printed on screen, but redirected to sysdout_test.txt
