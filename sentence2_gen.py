@@ -1,5 +1,5 @@
 '''
-use yield make generator func replace iterator
+use yield make a generator works as an iterator
 '''
 import re
 from collections import abc
