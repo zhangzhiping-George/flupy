@@ -3,7 +3,7 @@ import queue
 import argparse
 import random
 
-DEFAULT_TAXI_NUM = 3
+DEFAULT_TAXI_NUM = 5 
 DEPARTURE_INTERVAL = 5
 DEFAULT_END_TIME = 180
 SEARCH_DURATION = 5
