@@ -1,3 +1,6 @@
+'''
+use yield make generator func replace iterator
+'''
 import re
 from collections import abc
 import reprlib
@@ -33,7 +36,7 @@ class Sentence:
 #        return self
 #        
         
-s = Sentence('The negative and the anxious emotion help nothing, it kills')
+s = Sentence('The negative, including anxious emotions,  helps nothing, it kills')
 print('s: ', s)
 print('list property: ', list(s))
 iters = iter(s)
